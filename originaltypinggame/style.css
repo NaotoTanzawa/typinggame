@@ -1,0 +1,88 @@
+/* スタート画面 */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+.container {
+    margin-top: 50px;
+}
+
+#start-button{
+    border: none;
+    cursor: progress;
+    width: 250px;
+    height: 200px;
+    margin: 200px 20px 50px;
+    border-radius: 10%;
+    }
+
+#zunda-left{
+    margin-top: 50px;
+    margin-left: 100px;
+    float: left;
+}
+#zunda-right{
+    margin-top: 50px;
+    margin-right: 100px;
+    float: right;
+}
+
+
+/* ゲーム画面 */
+/* タイピングゲーム全体の装飾 */
+body{
+    font-size: 5em;
+    text-align: center;
+}
+
+#game-zunda{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    float: left;
+    
+}
+
+#start{
+    margin-top: 50px;
+    margin-right: 200px;
+}
+
+/* ゲームの残り秒数が表示されるタイマーの領域 */
+.count{
+    margin: 0;
+    font-weight: bold;
+    color: #000000;
+}
+
+/* テキストが表示される領域 */
+.wrap{
+    margin-top: 20px;
+    padding: 40px 40px;
+    background-color: #7fc750;
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.3em;
+}
+
+/* 正しくタイプされた場合のテキスト */
+.typed{
+    color: rgb(15, 63, 221);
+}
+
+/* ミスタイプされた場合の背景 */
+.mistyped{
+    background-color: red;
+}
+
+
+/* タイピングテキストのカウントの装飾 */
+#text-count{
+    margin: 20px 0 0 0;
+    font-size: 0.5em;
+    color: #3b3a3a;
+    font-weight: bold;
+}
+
+/* タイピングゲームのスコア画面 */
